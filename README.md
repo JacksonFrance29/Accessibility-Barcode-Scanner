@@ -49,6 +49,10 @@ The device is completely portable, powered by a rechargeable battery pack, and r
    - Text-to-speech announces the product name and nutritional information
    - The device announces that it is ready to start the next scan
   
+## Notes
+- Product information is retrieved from a public barcode database via `product_lookup.py`.
+- `chatgpt_client.py` is optional and requires `OPENAI_API_KEY` to be set (if used).
+- Startup scripts (`start_scanner.sh`, `btautoconnect.sh`) are included to run the scanner automatically on boot and connect audio output.
 
 
 
